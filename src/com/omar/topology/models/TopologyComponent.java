@@ -1,7 +1,6 @@
 package com.omar.topology.models;
 
 import java.util.HashMap;
-import java.util.List;
 
 public class TopologyComponent {
 

@@ -1,4 +1,4 @@
-package com.omar.topology.utils;
+package com.omar.topology.controller;
 
 import com.google.gson.Gson;
 import com.omar.topology.models.Topology;
@@ -9,7 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class JsonHelper {
+public class TopologyController {
     private ArrayList<Topology> topologies = new ArrayList<>();
 
     private  Reader readFile(String fileName) {
